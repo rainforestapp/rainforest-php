@@ -1,0 +1,27 @@
+{
+    "name": "rainforest/rainforest",
+    "type": "library",
+    "description": "Rainforest automates your functional and integration testing with our QA-as-a-Service API.",
+    "keywords": ["rainforest", "api", "apibits"],
+    "homepage": "https://www.rainforestqa.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Apibits.com",
+            "email": "libraries@apibits.com",
+            "homepage": "http://apibits.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "php": ">=5.3.3",
+      "ext-curl": "*",
+      "ext-json": "*"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.8"
+    },
+  "autoload": {
+    "psr-4": { "Rainforest\\" : "lib/" }
+  }
+}
